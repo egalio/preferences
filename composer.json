@@ -1,0 +1,19 @@
+{
+    "name": "egalio/preferences",
+    "authors": [
+        {
+            "name": "Egalio Dev",
+            "email": "egalio@firemail.cc"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "orchestra/testbench": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Egalio\\Preferences\\": "src/Preferences/"
+        }
+    }
+}
